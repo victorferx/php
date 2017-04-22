@@ -1,5 +1,27 @@
 <?php
   echo 'automovi.php';
+isset($usuario)
+{
+
+
+
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
 
+
+</body>
+</html>
