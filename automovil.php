@@ -1,66 +1,30 @@
-<?php
+<?php 
 
-  echo 'automovi.php';
-isset($usuario)
+/**
+* 
+*/
+class Automovil
+{
+	private $nrollantas;
+	private $colorautos;
+	private $añofabrica;
+	private $seriemotor;
 
-
-
-
-=======
-	echo 'automovi.php';
-	isset($usuario)
+	function __construct(argument)
 	{
-		echo "Ya existe el usuario";
+		# code...
 	}
->>>>>>> origin/master
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Gestión de usuario</title>
-</head>
-<body>
-	<table>
-		<th>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</th>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
 
 
-</body>
-</html>
+public function  aumekilometros($Kilometros)
+{
+		 $velocidad= 100;
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+	 echo "la nueva velocidad es" , $velocidad+$Kilometros;
+		
+	}
 
 
-</body>
-</html>
+	
+}
+ ?>
