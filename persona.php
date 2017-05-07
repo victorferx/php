@@ -20,6 +20,15 @@ class Persona
 		$this->usuario = $usuario_p;
 
 	}
+	public function GetNombreCompleto()
+	{
+		return $this->nombreCompleto;
+	}
+	public function SetNombreCompleto($nombre_p)
+	{
+		$this->nombreCompleto = $nombre_p;
+	}
+
 	public function GetLugarNacimiento()
 	{
 		return $this->lugarNacimiento;
@@ -28,6 +37,7 @@ class Persona
 	{
 		$this->lugarNacimiento = $lugar_p;
 	}
+
 	public function GetSexo()
 	{
 		return $this->sexo;
