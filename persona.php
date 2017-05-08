@@ -1,23 +1,29 @@
 <?php 
 
-/**
-* 
+/*
+NuestraEmpresa - © - Huancayo de 2017
+Descripción	: Datos básicos de una persona
+Autor 		: Victor Fernández
+Creación 	: 15/04/2017
+Email/Telf	: victorferx@gmail.com / 977773430
+Control de versiones:
+ID 	fecha 		Descripción
+VF 	07/04/2017	Se comenta la instancia de la clase y se agrega la cabecera del archivo.
 */
+
 class Persona
 {
 	private $fechaNacimiento;
 	private $nombreCompleto;
 	private $sexo;
-	private $usuario;
 	private $lugarNacimiento;
 
-	function __construct($usuario_p)
+	function __construct()
 	{
 		$this->sexo = 'Varón';
 		$this->nombreCompleto = 'Victor';
 		$this->fechaNacimiento = new DateTime('1986-11-18');
 		$this->lugarNacimiento = 'huancayo';
-		$this->usuario = $usuario_p;
 
 	}
 	public function GetNombreCompleto()
@@ -65,7 +71,8 @@ class Persona
 	}
 }
 
-$victor = new Persona('victor123');
+
+/*$victor = new Persona();
 
 echo('Lugar de nacimiento : ') , $victor->GetLugarNacimiento();
 echo "<br>";
@@ -79,6 +86,7 @@ echo "Aumentamos la edad 3 años y cambiamos el lugar de nacimiento.", "<br>";
 $victor->SetLugarNacimiento('El Tambo');
 echo "Nuevo lugar de nacimiento : " , $victor->GetLugarNacimiento(), "<br>";
 echo "La edad aumentada en 3 años es : ", $victor->AumentarEdad(3);
+*/
  ?>
 
 
